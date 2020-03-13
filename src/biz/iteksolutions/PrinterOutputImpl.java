@@ -41,6 +41,8 @@ public class PrinterOutputImpl extends javax.swing.JPanel implements IPrinterOut
         jScrollPane1 = new javax.swing.JScrollPane();
         txtDisplay = new javax.swing.JTextArea();
 
+        txtDisplay.setFont(new java.awt.Font(java.awt.Font.MONOSPACED, java.awt.Font.PLAIN, 12));
+
         jLabel1.setText("File");
         jLabel1.setName("lblFile"); // NOI18N
 
